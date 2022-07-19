@@ -22,7 +22,19 @@ const cardData = [
         },
         location: "Online",
         openSpots: 27
-    }
+    },
+    {
+        id: 2,
+        title: "Python Beyond the Basics",
+        img: "python.jpg",
+        price: 13.99,
+        stats: {
+            rating: 4.4,
+            reviewCount: 292
+        },
+        location: "Online",
+        openSpots: 100
+    },
 ]
 
 export default cardData;
